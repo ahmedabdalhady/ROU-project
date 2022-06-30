@@ -1,0 +1,101 @@
+:root{
+    --main_color:#c04ae2;
+}
+h7{
+    color: var(--main_color);
+}
+a img{
+    width: 20px;
+    height: 20px;
+}
+
+/* style of navbar */
+.navbar .navbar-nav .nav-link{
+    color:black;
+    font-weight: bold;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: var(--main_color);
+}
+.navbar form button,.main-btn{
+    border: 2px solid #c04ae2;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.navbar form button:hover,.main-btn:hover{
+    background-color: var(--main_color);
+}
+.navbar .navbar-toggler{
+    color: var(--main_color);
+    font-size: 25px;
+    border-color: var(--main_color);
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+.landing{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    
+}
+.landing .land-img img{
+    height: 80%;
+    width: 80%;
+}
+@media (max-width:750px){
+    .landing, .cards, .section2, .section2 .right, .section3 .cards2-1, .section3 .cards2-2, .section4 .sec41,
+    .section4 .sec42, .section4 .sec43, .section5 .managers, .section6, .section7 .sec7, .section8{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        padding-top: 60px;
+    
+    }
+    .section4 .sec42{
+        flex-direction: column-reverse;
+    }
+
+    .landing .land-img img{
+        padding-top: 40px;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+.section1 img, .section3 img{
+    width: 50px;
+    height: 50px;
+}
+.section3 a img{
+    width: 20px;
+    height: 10px;
+}
+.section7 a img{
+    width: 50px;
+    height: 50px;
+}
+.section7 input{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: aliceblue;
+}
+.section7 textarea{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.section8 img, .navbar-brand img{
+    width: 90px;
+    height: 50px;
+}
