@@ -87,6 +87,26 @@ a img{
         margin-bottom: 10px;
     }
 }
+.section2{
+    background-image: url("../images/blur\ element\ dfs.png");
+    background-size: cover;
+    
+}
+.section4{
+    background-image: url("../images/bg2.png");
+    
+    background-repeat:repeat;
+}
+.section6{
+    background-image: url("../images/blur\ element\ dfs.png");
+    background-size: cover;
+    
+}
+.section8{
+    background-image: url("../images/blur\ element\ dfs.png");
+    background-size: cover;
+    
+}
 .section1 img, .section3 img{
     width: 50px;
     height: 50px;
